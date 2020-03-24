@@ -1,5 +1,5 @@
 # Tracking Global Carbon Emissions using CDIAC Data
-
+![OpeningPicture](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/climate_change.jpeg)
 https://datahub.io/core/co2-fossil-by-nation#javascript
 
 The Carbon Dioxide Information Analysis Center was a Department of Energy project collecting data on US and global carbon emissions through 2016 when it was merged into a new DoE project called ESS-DIVE. CDIAC collected a variety of datasets on carbon emissions using a variety of different geographies, methodologies, and definitions. One study carried out under the auspices of the CDIAC was Global, Regional and National Fossil-Fuel CO2 Emissions (1751-2014) by Boden, Maryland, and Andres. The study produced annual estimates of carbon emissions and carbon emissions per capita for the majority of the world’s countries, with some countries having data going back to 1751. 
