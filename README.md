@@ -9,17 +9,17 @@ We propose to use the data collected by Boden et al. to construct a global carbo
 Desired visualizations include
      •Line graphs of carbon emissions by year that can be drilled down to one or two countries allowing individual countries to be examined or two countries to be compared.
 
-(Mock Data 1) (Mock Data 2) 
+![MockData1](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData1.png) ![MockData2](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData2.png) 
 
 •Stacked bar graphs that show each countries’ contribution to global carbon emissions, again with the capability to “drill down” to one or two countries.
     
  
-(Mock Data 3) (Mock Data 4) 
+![MockData3](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData3.png) ![MockData4](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData4.png) 
     
  • A choropleth map or other geographic mapping tool that allows users to track the change in emissions per capita for different countries around the world from one year to the next. We will evaluate both a hand-selected year for this map and code that animates the process across all years in the study. 
     
     
- (Mock Data 5)
+ ![MockData5](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData5.png)
  
 
   
