@@ -11,13 +11,12 @@ Desired visualizations include
 
 (Mock Data 1) (Mock Data 2) 
 
-
-    • Stacked bar graphs that show each countries’ contribution to global carbon emissions, again with the capability to “drill down” to one or two countries.
+•Stacked bar graphs that show each countries’ contribution to global carbon emissions, again with the capability to “drill down” to one or two countries.
     
  
 (Mock Data 3) (Mock Data 4) 
     
-    •	A choropleth map or other geographic mapping tool that allows users to track the change in emissions per capita for different countries around the world from one year to the next. We will evaluate both a hand-selected year for this map and code that animates the process across all years in the study. 
+ • A choropleth map or other geographic mapping tool that allows users to track the change in emissions per capita for different countries around the world from one year to the next. We will evaluate both a hand-selected year for this map and code that animates the process across all years in the study. 
     
     
  (Mock Data 5)
