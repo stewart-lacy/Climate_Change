@@ -9,7 +9,7 @@ We propose to use the data collected by Boden et al. to construct a global carbo
 Desired visualizations include
      •Line graphs of carbon emissions by year that can be drilled down to one or two countries allowing individual countries to be examined or two countries to be compared.
 
-![MockData1](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData1.png) (Mock Data 2) 
+![MockData1](https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData1.png) (https://github.com/stewart-lacy/Climate_Change/blob/master/Resources/MockData2.png) 
 
 •Stacked bar graphs that show each countries’ contribution to global carbon emissions, again with the capability to “drill down” to one or two countries.
     
