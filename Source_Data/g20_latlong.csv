@@ -1,0 +1,20 @@
+country_std,country_id,latitude,longitude,country
+Argentina,AR,-38.416097,-63.616672,Argentina
+Australia,AU,-25.274398,133.775136,Australia
+Brazil,BR,-14.235004,-51.92528,Brazil
+Canada,CA,56.130366,-106.346771,Canada
+China,CN,35.86166,104.195397,China
+Germany,DE,51.165691,10.451526,Germany
+France,FR,46.227638,2.213749,France
+United Kingdom,GB,55.378051,-3.435973,United Kingdom
+Indonesia,ID,-0.789275,113.921327,Indonesia
+India,IN,20.593684,78.96288,India
+Italy,IT,41.87194,12.56738,Italy
+Japan,JP,36.204824,138.252924,Japan
+"Korea, Republic of",KR,35.907757,127.766922,"Korea, Republic of "
+Mexico,MX,23.634501,-102.552784,Mexico
+Russian Federation,RU,61.52401,105.318756,Russia
+Saudi Arabia,SA,23.885942,45.079162,Saudi Arabia
+Turkey,TR,38.963745,35.243322,Turkey
+United States,US,37.09024,-95.712891,United States
+South Africa,ZA,-30.559482,22.937506,South Africa
