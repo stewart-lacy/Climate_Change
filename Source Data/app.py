@@ -1,21 +1,20 @@
-from flask import Flask
-
+from flask import Flask, redirect,url_for,render_template
+from flask_bootstrap import Bootstrap
 # 2. Create an app, being sure to pass __name__
 app = Flask(__name__)
-
+Bootstrap(app)
+ 
 
 # 3. Define what to do when a user hits the index route
-@app.route("/")
+@app.route('/')
 def home():
-    print("Server received request for 'Home' page...")
-    return "Welcome to my 'Home' page!"
+    return render_template("index.html")
 
 
 # 4. Define what to do when a user hits the /about route
-@app.route("/about")
-def about():
-    print("Server received request for 'About' page...")
-    return "Welcome to my 'About' page!"
+##@app.route("/about")
+##def about():
+  ####return "Welcome to my 'About' page!"
 
 
 if __name__ == "__main__":
