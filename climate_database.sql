@@ -1,23 +1,31 @@
+
+DROP TABLE climate_data;
+
 CREATE TABLE climate_data (
-	country varchar(45),
-	year int,
-	total_co2_fossil_cement int,
-	emissions_solid_fuel int,
-	emissions_liquid_fuel int,
-	emissions_gas_fuel int,
-	emissions_cement int,
-	emissions_gas_flaring int,
-	per_capita_co2_emissions int,
-	emissions_bunker_fuel int
+	country_std VARCHAR(50) PRIMARY KEY,
+	year_1995 DECIMAL,
+	year_1996 DECIMAL,
+	year_1997 DECIMAL,
+	year_1998 DECIMAL,
+	year_1999 DECIMAL,
+	year_2000 DECIMAL,
+	year_2001 DECIMAL,
+	year_2002 DECIMAL,
+	year_2003 DECIMAL,
+	year_2004 DECIMAL,
+	year_2005 DECIMAL,
+	year_2006 DECIMAL,
+	year_2007 DECIMAL,
+	year_2008 DECIMAL,
+	year_2009 DECIMAL,
+	year_2010 DECIMAL,
+	year_2011 DECIMAL,
+	year_2012 DECIMAL,
+	year_2013 DECIMAL,
+	year_2014 DECIMAL,
+	country VARCHAR(2),
+	latitude DECIMAL,
+	longitude DECIMAL
 );
 
-
-CREATE TABLE country_lat_long (country_id varchar(2),
-latitude int,
-longitude int,
-country varchar(45));
-
-drop table country_lat_long
-drop table climate_data
-
-select from climate_data
+SELECT * FROM climate_data;
