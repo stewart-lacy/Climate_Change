@@ -6,16 +6,18 @@ Bootstrap(app)
  
 
 # 3. Define what to do when a user hits the index route
-@app.route('/')
+@app.route('/ecoindex.html')
 def home():
     return render_template("ecoindex.html")
-@app.route('/data')
+@app.route('/data.html')
 def data():
     return render_template("data.html")
-@app.route('/map')
+@app.route('/geomapping.html')
 def map():
     return render_template("geomapping.html")
-
+@app.route('/visuals.html')
+def visuals():
+    return render_template("visuals.html")
 # 4. Define what to do when a user hits the /about route
 ##@app.route("/about")
 ##def about():
