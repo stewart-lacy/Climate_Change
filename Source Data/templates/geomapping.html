@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../static/css/styles.css">
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>City Population</title>
-
+    <meta charset="utf-8">
+    <title>CO2 Emissions by Country</title>
     <!-- Leaflet CSS & JS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
         integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
@@ -20,20 +20,19 @@
     <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
         integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
         crossorigin=""></script>
-
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-
-
 </head>
 
 <body>
-    <!-- Navigation Section -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#FFB575;">
-            <a class="navbar-brand" style="background-color: #FFB575 ;" href="ecoindex.html">2014 Global Carbon
-                Emissions</a>
-            <button class="navbar-toggler border border-white" type="button" data-toggle="collapse"
+            <a class="navbar-brand" style="background-color: #FFB575;">2014 Global Carbon
+                Emissions </a>
+            <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
                 data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,41 +46,26 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="visuals.html">Visuals</a>
-                            <a class="dropdown-item active" href="geomapping.html">Geomapping</a>
+                            <a class="dropdown-item" href="geomapping.html">Geomapping</a>
                         </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data</a>
                     </li>
-
+                    </li>
+                    <!-- drop down to add things to when we need-->
+                    </li>
                 </ul>
             </div>
         </nav>
     </div>
-    <!-- Content Section -->
     <!-- The div where we will inject our map -->
-    <div id="map"></div>
-
+    <div id="wrapper">
+        <div id="map"></div>
+    </div>
     <!-- API key -->
     <script type="text/javascript" src="../static/js/config.js"></script>
-    <!-- source data -->
-    <script src="../static/js/emissions_2014.js"></script>
-    <!-- temporary year defining variable -->
     <!-- Our JS -->
     <script type="text/javascript" src="../static/js/logic.js"></script>
-
-
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>
