@@ -40,8 +40,12 @@ Plotly.d3.csv('climate_data.csv', function (err, rows) {
       y: currentEmissions,
       mode: 'lines+markers',
       marker: {
+        color: 'rgb(232, 179, 111)',
         size: 12,
-        opacity: 0.5
+        opacity: 0.5,
+      },
+      line: {
+        color: 'rgb(232, 179, 111)'
       }
     };
 
@@ -51,8 +55,6 @@ Plotly.d3.csv('climate_data.csv', function (err, rows) {
       title: 'Co2 Emissions per Country (1995-2014)',
       xaxis: { title: "Year" },
       yaxis: { title: "Co2 Emissions" },
-      height: 400,
-      width: 480
     };
 
     Plotly.newPlot('plot', data, layout);
@@ -78,3 +80,4 @@ Plotly.d3.csv('climate_data.csv', function (err, rows) {
 
   countrySelector.addEventListener('change', updateCountry, false);
 });
+
