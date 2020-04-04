@@ -18,8 +18,7 @@ def map():
     return render_template("geomapping.html")
 @app.route('/visuals.html',methods=["GET","POST"])
 def visuals():
-    bar = create_plot()
-    return render_template("visuals.html",plot=bar)
+    return render_template("visuals.html")
 # 4. Define what to do when a user hits the /about route
 ##@app.route("/about")
 ##def about():
