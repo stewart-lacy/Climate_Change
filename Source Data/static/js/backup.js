@@ -1,5 +1,7 @@
-d3.json(`/data/data.json`).then((data) => {
-  //console.log(data);
+console.log("Moo!");
+
+d3.json(`/static/data/data.json`).then((data) => {
+  console.log(data);
 
   var trace = {
     x: ["Qatar", "Trinidad and Tobago", "Kuwait", "United Arab Emirates", "Bahrain"],
@@ -7,7 +9,7 @@ d3.json(`/data/data.json`).then((data) => {
     type: 'bar'
   };
   
-  var data1 = [trace]
+  var data1 = [trace];
 
   var layout = {
     title: "Countries with Highest CO2 Emissions in 2014",
@@ -17,3 +19,4 @@ d3.json(`/data/data.json`).then((data) => {
   Plotly.newPlot("plot", data1, layout);
 
 });
+
