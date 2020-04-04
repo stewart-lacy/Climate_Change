@@ -13,7 +13,7 @@ def home():
 @app.route('/data.html')
 def data():
     return render_template("data.html")
-@app.route('/geomapping.html')
+@app.route('/geomapping.html',methods=["GET","POST"])
 def map():
     return render_template("geomapping.html")
 @app.route('/visuals.html')
