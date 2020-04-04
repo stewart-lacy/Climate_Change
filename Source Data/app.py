@@ -7,6 +7,7 @@ Bootstrap(app)
 
 # 3. Define what to do when a user hits the index route
 @app.route('/ecoindex.html')
+@app.route('/')
 def home():
     return render_template("ecoindex.html")
 @app.route('/data.html')
