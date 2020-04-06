@@ -1,0 +1,90 @@
+.navbar {
+    position:absolute;
+    z-index:10;
+    background:transparent;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    color: #C36900;
+    font-family: "Futura", Bold, italic;
+    font-size:20px;
+  }
+
+
+
+  .navbar ul{
+    text-align:center;
+  }
+  
+  .box-1 {
+    color: #C36900;
+    font-family: "Futura", Bold, italic;
+  }
+
+  .box-2 {
+    color: #C36900;
+    font-family: "Futura", Bold, italic;
+  }
+  /* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+#wrapper{
+  width: 960px;
+  margin: 15px auto;
+}
+/* set map, body, and html to 100% of the screen size */
+#map {
+  height: 450px;
+  margin: 15px auto;
+}
+h1 {
+  text-align: center;
+}
+.legend, .temporal-legend {
+     padding: 6px 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+   background: rgba(255,255,255,0.8);
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   border-radius: 5px;
+}
+#legendTitle {
+    text-align: center;
+    margin-bottom: 15px;
+   font-variant: small-caps;
+}
+.symbolsContainer {
+   float: left;
+    margin-left: 50px;
+}
+.legendCircle {
+border-radius:50%; 
+border: 1px solid #537898; 
+   background: rgba(113, 133, 152, .6);
+display: inline-block;
+}
+.legendValue {
+position: absolute;
+right: 8px;
+}
+  
+

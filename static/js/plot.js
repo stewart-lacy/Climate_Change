@@ -1,5 +1,4 @@
-Plotly.d3.csv('climate_data.csv', function (err, rows) {
-
+Plotly.d3.csv('static/data/climate_data.csv', function (err, rows) {
   function unpack(rows, key) {
     return rows.map(function (row) { return row[key]; });
   }
@@ -58,15 +57,17 @@ Plotly.d3.csv('climate_data.csv', function (err, rows) {
     Plotly.newPlot('plot', data, layout);
   };
 
-  var innerContainer = document.querySelector('[data-num="0"'),
+  var innerContainer = document.querySelector('[data-num="0"]'),
     plotEl = innerContainer.querySelector('.plot'),
     countrySelector = innerContainer.querySelector('.countrydata');
+    
 
   function assignOptions(textArray, selector) {
     for (var i = 0; i < textArray.length; i++) {
       var currentOption = document.createElement('option');
       currentOption.text = textArray[i];
       selector.appendChild(currentOption);
+      
     }
   }
 

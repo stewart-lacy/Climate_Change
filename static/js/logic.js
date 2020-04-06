@@ -2,8 +2,8 @@
 $(document).ready(function () {
   var countries;
   var map = L.map("map", {
-    center: [37.8, -96],
-    zoom: 4
+    center: [0, -30],
+    zoom: 2
   });
   L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
@@ -11,8 +11,7 @@ $(document).ready(function () {
     id: "mapbox.streets-basic",
     accessToken: API_KEY
   }).addTo(map);
-  $.getJSON("emissions.json")
-    .done(function (data) {
+  $.getJSON("../static/data/emissions.json").done(function (data) {
       console.log(data);
       var info = processData(data);
       createPropSymbols(info.timestamps, data);
